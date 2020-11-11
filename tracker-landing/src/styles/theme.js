@@ -19,5 +19,5 @@ export const theme = createMuiTheme({
     },
     typography: {
         fontFamily: '"Roboto", sans-serif',
-    }
+    },
   })

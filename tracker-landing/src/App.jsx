@@ -10,6 +10,11 @@ import Button from "@material-ui/core/Button";
 import { theme } from "./styles/theme";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    a: {
+      color: "white",
+    },
+  },
   paper: {
     // marginTop: theme.spacing(8),
     display: "flex",
@@ -72,23 +77,28 @@ function App() {
             <div className="nav-content">
               <h1>Tracker.io</h1>
               <nav className="links">
-                <a href="#" className="left">
+                <a
+                  href="https://career-tracker.vercel.app/login"
+                  className="left"
+                >
                   Login
                 </a>
                 {/* <a href="#">About Us</a>
                 <a href="#">Contact</a> */}
                 <Button
-                  type="submit"
+                  type="text"
                   size="large"
                   variant="contained"
                   color="primary"
                   style={{
                     fontWeight: "500",
+                    color: "white",
                     fontSize: "1.1rem",
                     textTransform: "capitalize",
                   }}
                   className={buttonClassname}
                   disable={loading}
+                  href="https://career-tracker.vercel.app/register"
                 >
                   Sign up for free
                 </Button>
@@ -101,7 +111,7 @@ function App() {
           <div className="b-title">
             <h1 className="intro-info">Control center for your job hunt</h1>
             <Button
-              type="submit"
+              type="text"
               size="large"
               variant="contained"
               color="primary"
@@ -109,11 +119,11 @@ function App() {
                 fontWeight: "500",
                 fontSize: "1.45rem",
                 textTransform: "capitalize",
-                // width: "25%",
-
+                color: "white",
                 marginTop: "25px",
               }}
               className={buttonClassname}
+              href="https://career-tracker.vercel.app/register"
               disable={loading}
             >
               Sign up for free
@@ -195,10 +205,12 @@ function App() {
                 <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Login</a>
+                <a href="https://career-tracker.vercel.app/login">Login</a>
               </li>
               <li>
-                <a href="#">Register</a>
+                <a href="https://career-tracker.vercel.app/register">
+                  Register
+                </a>
               </li>
             </ul>
           </div>
