@@ -149,14 +149,14 @@ function App() {
           </div>
         </div>
 
-        <a
+        {/* <a
           href="https://career-tracker.vercel.app/register"
           className="cta-link"
         >
           <div className="cta">
             <h1>Take control of your career today!</h1>
           </div>
-        </a>
+        </a> */}
 
         <footer>
           <div className="f-columns">
