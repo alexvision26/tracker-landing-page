@@ -136,6 +136,18 @@
       // }
     }
   }
+
+  @media only screen and (max-width: 1920px) {
+    width: 70%;
+
+    .links {
+      width: 65%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    width: 85%;
+  }
 }
 
 //Banner Styles
@@ -190,8 +202,23 @@
     max-width: 60%;
   }
 
+  @media only screen and (max-width: 1920px) {
+    width: 70%;
+
+    .b-img-container {
+      width: 70%;
+    }
+    .b-title {
+      width: 70%;
+
+      .intro-info {
+        // width: 100%;
+      }
+    }
+  }
+
   @media only screen and (max-width: 1600px) {
-    height: 70vh;
+    height: 80vh;
     .b-img-container {
       width: 50%;
     }
@@ -205,7 +232,8 @@
   }
 
   @media only screen and (max-width: 1200px) {
-    height: 70vh;
+    height: 80vh;
+    width: 85%;
     .b-img-container {
       width: 70%;
     }
@@ -254,7 +282,7 @@
   top: -150px;
   max-width: 90%;
   min-height: 200px;
-  margin: 5% auto 2%;
+  margin: 5% auto 1%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -271,12 +299,19 @@
     }
   }
 
-  @media only screen and (min-width: 1500px) {
-    max-width: 70%;
+  @media only screen and (max-width: 1920px) {
+    width: 75%;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    width: 75%;
+    top: -120px;
   }
 
   @media only screen and (max-width: 1200px) {
-    max-width: 80%;
+    width: 80%;
+    top: -50px;
+    width: 80%;
 
     .card-item {
       width: 45%;
@@ -355,8 +390,8 @@
     }
   }
 
-  @media only screen and (max-width: 1900px) {
-    width: 90%;
+  @media only screen and (max-width: 1920px) {
+    width: 80%;
     justify-content: space-between;
 
     .prev-img {
@@ -365,10 +400,10 @@
 
     .prev-info {
       h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
       }
       p {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
         width: 80%;
       }
     }
